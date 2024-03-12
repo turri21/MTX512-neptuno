@@ -91,6 +91,10 @@ module MTX512(
 
 	output        AUDIO_L,
 	output        AUDIO_R,
+
+	inout	      DAC_L,
+	inout         DAC_R,
+	
 `ifdef I2S_AUDIO
 	output        I2S_BCK,
 	output        I2S_LRCK,
