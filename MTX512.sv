@@ -16,7 +16,7 @@
 //============================================================================
 
 
-module guest_top(
+module MTX512(
 	input         CLOCK_27,
 `ifdef USE_CLOCK_50
 	input         CLOCK_50,
