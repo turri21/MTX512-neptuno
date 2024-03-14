@@ -27,8 +27,6 @@ module MTX512(
 	output [VGA_BITS-1:0] VGA_R,
 	output [VGA_BITS-1:0] VGA_G,
 	output [VGA_BITS-1:0] VGA_B,
-	
-	
 	output        VGA_HS,
 	output        VGA_VS,
 
@@ -91,8 +89,8 @@ module MTX512(
 	output        AUDIO_L,
 	output        AUDIO_R,
 
-        inout         DAC_L,
-        inout         DAC_R,
+    inout         DAC_L,
+    inout         DAC_R,
 `ifdef I2S_AUDIO
 	output        I2S_BCK,
 	output        I2S_LRCK,
@@ -256,7 +254,7 @@ wire        sd_busy;
 wire        sd_sdhc;
 wire        sd_conf;
 
- user_io #(.STRLEN($size(CONF_STR)>>3), .SD_IMAGES(1), .PS2DIV(500), .FEATURES(32'h0 | (BIG_OSD << 13) | (HDMI << 14))) user_io
+user_io #(.STRLEN($size(CONF_STR)>>3), .SD_IMAGES(1), .PS2DIV(500), .FEATURES(32'h0 | (BIG_OSD << 13) | (HDMI << 14))) user_io
 (	
 	.clk_sys        	(clk_sys         	),
 	.clk_sd           (clk_sys          ),
@@ -279,7 +277,7 @@ wire        sd_conf;
 	.joystick_1       (joy2             ),
 	.status         	(status         	),
 	// SD CARD
-   .sd_lba                      (sd_lba        ),
+    .sd_lba                      (sd_lba        ),
 	.sd_rd                       (sd_rd         ),
 	.sd_wr                       (sd_wr         ),
 	.sd_ack                      (sd_ack        ),
@@ -290,7 +288,7 @@ wire        sd_conf;
 	.sd_din                      (sd_buff_din   ),
 	.sd_buff_addr                (sd_buff_addr  ),
 	.sd_dout_strobe              (sd_buff_wr),
-   .img_mounted                 (img_mounted   ),
+    .img_mounted                 (img_mounted   ),
 	.img_size                    (img_size      )
 );
 
