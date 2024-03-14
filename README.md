@@ -1,5 +1,5 @@
 
-# Memotech MTX Series core (Poseidon)
+# Memotech MTX Series core (NeptUNO)
 Based on the original AndyZ core: REMEMOTECH
 http://www.nyangau.org/rememotech/rememotech.htm
 
@@ -27,7 +27,7 @@ Implements enough hardware to allow it to run MTX BASIC, various MTX games and C
     Serial port
 
 ________________________________________________________________________________________
-# Memotech MTX Series core (Poseidon)
+# Memotech MTX Series core (NeptUNO)
 
 Basado en el core original de AndyZ: REMEMOTECH
 http://www.nyangau.org/rememotech/rememotech.htm
