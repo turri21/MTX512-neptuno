@@ -1,3 +1,32 @@
+
+# Memotech MTX Series core (Poseidon)
+Based on the original AndyZ core: REMEMOTECH
+http://www.nyangau.org/rememotech/rememotech.htm
+
+Ported to MiSTer by naeloob (Yo_me) and rampa069 
+DeMiSTified by Rampa069 
+Ported to Poseidon - DeMiSTify by ron
+
+### Features
+
+Implements enough hardware to allow it to run MTX BASIC, various MTX games and CP/M.
+
+**Supports: - 
+**
+
+    CPU (T80) Z80, at 4.166MHz and other speeds up to 24MHz
+    384 KB RAM, 72 KB ROM. Z80 CTC
+    CRTC6845 80 column color output and VDP mode TMS9918A, output at 640x480 @ 50Hz (or 60Hz) VGA, switchable from OSD
+    80-column card support, with 80x24 and 80x48 modes, with 640x480 VGA output at 60 and 50 Hz
+    Ti SN76489A sound chip
+    RAM disk support (up to 320 KB)
+    SD card as a large and fast alternative to floppy disk
+    Modified SDX ROM using SD card and RAM disk instead of floppy disk
+    Virtual cassette support
+    Numeric accelerator
+   Serial port
+
+________________________________________________________________________________________
 # Memotech MTX Series core (Poseidon)
 
 Basado en el core original de AndyZ: REMEMOTECH
