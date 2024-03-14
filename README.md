@@ -24,7 +24,7 @@ Implements enough hardware to allow it to run MTX BASIC, various MTX games and C
     Modified SDX ROM using SD card and RAM disk instead of floppy disk
     Virtual cassette support
     Numeric accelerator
-   Serial port
+    Serial port
 
 ________________________________________________________________________________________
 # Memotech MTX Series core (Poseidon)
